@@ -1,1 +1,0 @@
-/usr/bin/clang++ -std=c++23 -Wall -Wextra -Xlinker --dependency-file -Xlinker CMakeFiles/aoc_day2.dir/link.d CMakeFiles/aoc_day2.dir/day02.cpp.o -o aoc_day2
