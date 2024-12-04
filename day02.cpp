@@ -25,16 +25,6 @@ namespace D02{
         return true;
     }
 
-    // bool isSafe2(vector<int> report){
-
-    //     for(int i : report){
-    //         std::vector<int> report_remove_element = report;
-    //         report_remove_element.erase(report_remove_element.begin() + i);
-    //         return isSafe(report_remove_element)
-    //     }
-
-    // }
-
     bool isSafe2(vector<int> report)
     {
         if(report.size() < 2)
