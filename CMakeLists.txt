@@ -17,3 +17,5 @@ add_executable(aoc_day4 day04.cpp)
 add_executable(aoc_day5 day05.cpp)
 
 add_executable(aoc_day6 day06.cpp)
+
+add_executable(aoc_day7 day07.cpp)

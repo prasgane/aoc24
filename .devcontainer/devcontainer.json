@@ -2,7 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/cpp
 {
 	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-	"name": "C++",
+	"name": "Advent of Code 2024",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
@@ -47,5 +47,7 @@
 		}
 	},
 	"remoteUser": "root",
-	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+	"workspaceFolder": "/workspace/aoc2024",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/aoc2024,type=bind",
+	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
 }
