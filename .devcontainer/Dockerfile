@@ -38,7 +38,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     # required by LLVM
     lsb-release zlib1g-dev \
     # shell
-    zsh
+    zsh \
+    libboost-all-dev
 
 
 # +-----------------------------+

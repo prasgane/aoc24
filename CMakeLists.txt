@@ -5,6 +5,8 @@ project(AdventofCode2024)
 # Set compiler flags
 set(CMAKE_CXX_FLAGS "-std=c++20 -Wall -Wextra")
 
+FIND_PACKAGE(Boost)
+
 # Add source files for the executable
 add_executable(aoc_day1 day01.cpp)
 
@@ -19,3 +21,5 @@ add_executable(aoc_day5 day05.cpp)
 add_executable(aoc_day6 day06.cpp)
 
 add_executable(aoc_day7 day07.cpp)
+
+add_executable(aoc_day8 day08.cpp)
