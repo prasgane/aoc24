@@ -26,4 +26,6 @@ FIND_PACKAGE(Boost)
 
 # add_executable(aoc_day9 day09.cpp)
 
-add_executable(aoc_day10 day10.cpp)
+# add_executable(aoc_day10 day10.cpp)
+
+add_executable(aoc_day11 day11.cpp)
