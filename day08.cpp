@@ -10,7 +10,7 @@
 
 using namespace std;
 
-namespace D09{
+namespace D08{
     struct AntenaLocation{
         AntenaLocation(int x_, int y_) : x(x_), y(y_) {}
 
@@ -59,8 +59,6 @@ namespace D09{
         int x, y;
     };
 
-    
-
     void load_data(unordered_map<char, vector<AntenaLocation>>& map, pair<int,int>& map_size){
 
         string input = "../inputs/day8_input.txt";
@@ -87,9 +85,7 @@ namespace D09{
 		}
         map_size.first=row;
         map_size.second=col_length;
-
     }
-    // credit to https://github.com/anuraglamsal/AdventOfCode2024
     void process_data(const unordered_map<char, vector<AntenaLocation>> map, pair<int, int> map_size, unordered_set<AntenaLocation, AntenaLocation::Hash>& unique_locations){
         for(const auto& pair: map){
             auto locations = pair.second;
@@ -168,6 +164,6 @@ namespace D09{
 }
 
 int main(){
-    D09::run();
+    D08::run();
     return 0;
 }
